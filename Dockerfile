@@ -12,7 +12,7 @@ ADD install.php /app/install.php
 RUN mkdir -p /app/usr/uploads && chmod 0777 -R /app/usr/uploads
 
 
-VOLUMES ['/app/usr/uploads']
+VOLUME ['/app/usr/uploads']
 
 WORKDIR    /app
 
