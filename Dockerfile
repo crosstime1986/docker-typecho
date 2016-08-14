@@ -2,12 +2,12 @@ FROM crosstime1986/docker-php55
 
 MAINTAINER Pual <crosstime1986@vip.qq.com>
 
-COPY admin   /app/
-COPY install /app/
-COPY usr /app/
-COPY var /app/
-COPY index.php /app/
-COPY install.php /app/
+ADD  admin   /app/admin
+ADD  install /app/install
+ADD  usr /app/usr
+ADD var /app/var
+ADD index.php /app/index.php
+ADD install.php /app/install.php
 
 RUN chmod 0777 -R /app/usr/uploads
 
