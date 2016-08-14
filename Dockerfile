@@ -9,7 +9,7 @@ COPY var /app/
 COPY index.php /app/
 COPY install.php /app/
 
-RUN chmod 0777 -R /app/usr/uploads \
+RUN chmod 0777 -R /app/usr/uploads
 
 
 VOLUMES ['/app/usr/uploads']
