@@ -8,6 +8,7 @@ ADD  usr /app/usr
 ADD var /app/var
 ADD index.php /app/index.php
 ADD install.php /app/install.php
+ADD config.inc.php /app/config.inc.php
 
 RUN mkdir -p /app/usr/uploads && chmod 0777 -R /app/usr/uploads
 
