@@ -9,7 +9,7 @@ ADD var /app/var
 ADD index.php /app/index.php
 ADD install.php /app/install.php
 
-RUN chmod 0777 -R /app/usr/uploads
+RUN mkdir -p /app/usr/uploads && chmod 0777 -R /app/usr/uploads
 
 
 VOLUMES ['/app/usr/uploads']
