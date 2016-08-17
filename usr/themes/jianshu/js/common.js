@@ -34,7 +34,7 @@ var jBlog = {
 		});
 		$('.btn-donate').click(function(e){
 			e.preventDefault();
-			jBlog.alert('<h3>支付宝二维码</h3><img style="width:200px;background:#fff;" src="http://lixianhua.com/usr/themes/jianshu/img/alipay.png">','success',0);
+			jBlog.alert('<h3>支付宝二维码</h3><img style="width:200px;background:#fff;" src="/usr/themes/jianshu/img/alipay.png">','success',0);
 		});
 		$('.btn-explore').click(function(e){
 			e.preventDefault();
